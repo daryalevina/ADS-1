@@ -10,10 +10,10 @@ int cbinsearch(int *arr, int size, int value) {
       for (int i = 0; i < size; i++) {
         if (arr[i] == value) {
           z++;
-	  }
 	}
-	break;
-      }  
+      }
+    break;
+    }  
     if (arr[k] < value)
       a = k + 1;
     else
